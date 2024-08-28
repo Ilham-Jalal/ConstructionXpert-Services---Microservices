@@ -1,5 +1,6 @@
 package com.constructionxpert.tache_service.model;
 
+import com.constructionxpert.tache_service.enums.TaskStatus;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -20,7 +21,8 @@ public class Task {
 
     private String description;
 
-    private String status;
+    @Enumerated(EnumType.STRING)
+    private TaskStatus status;
 
     private LocalDate dueDate;
 
