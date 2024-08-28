@@ -1,4 +1,4 @@
-package com.constructionxpert.tache_service.config;
+package com.constructionxpert.ressource_service.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

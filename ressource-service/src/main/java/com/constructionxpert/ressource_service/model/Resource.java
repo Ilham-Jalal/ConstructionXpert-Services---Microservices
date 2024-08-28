@@ -21,5 +21,5 @@ public class Resource {
     private int quantity;
 
     @Column(name = "tache_id", nullable = false)
-    private Long tache_id;
+    private Long taskId;
 }

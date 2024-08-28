@@ -6,8 +6,7 @@ import lombok.*;
 
 import java.time.LocalDate;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
@@ -27,6 +26,6 @@ public class Task {
     private LocalDate dueDate;
 
     @Column(name = "project_id", nullable = false)
-    private Long project_id;
+    private Long projectId;
 
 }

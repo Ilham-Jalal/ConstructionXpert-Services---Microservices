@@ -9,9 +9,9 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<artifactId>resource-server</artifactId>
+	<artifactId>ressource-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>resource-server</name>
+	<name>ressource-service</name>
 	<description>Construction Xpert Eureka Server</description>
 
 	<properties>
